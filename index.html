@@ -1,0 +1,66 @@
+<html>
+<body>
+    
+<input type="text" id="campo">
+<br><br>
+<button onclick="abrirMensagens()">
+    Exibir Mensagem
+</button>
+
+<br>
+<hr>
+<br>
+
+<div id="texto">
+     Newton Rodrigues
+</div>
+
+<div>
+    <button onclick="vermelho()">Vermelho</button>
+    <button onclick="verde()">Verde</button>
+    <button onclick="azul()">Azul</button>
+    <button onclick="rosa()">Rosa</button>
+</div>
+
+<br>
+<hr>
+<br>
+
+<input type="text" id="numero">
+<br>
+<button onclick="exponencial()">Calcular</button>
+
+<script language="javascript">
+    function abrirMensagens(){
+        alert(document.getElementById("campo").value)
+    }
+
+    function vermelho(){
+        document.getElementById("texto").style.color = "red"
+    }
+
+    function verde(){
+        document.getElementById("numero").style.color = "green"
+    }
+
+    function azul(){
+        document.getElementById("texto").style.color = "blue"
+    }
+
+    function rosa(){
+        document.getElementById("texto").style.color = "pink"
+    }
+
+    function exponencial(){
+        var numero = document.getElementById("numero").value
+
+            for (let index = 0; index < 10; index++) {
+            numero = numero * 2
+            console.log(numero)
+        }
+    }
+</script>
+
+
+</body>
+</html>
