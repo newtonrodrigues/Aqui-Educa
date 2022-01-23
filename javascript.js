@@ -142,7 +142,28 @@ function exibirMensagem(){
                 console.log("Não tem time")
                 break;
         }
-       
 
+      /*  function elementos(){
+    var elemento = document.getElementById("elemento")
+    elemento.innerText = "Conteúdo"
+    elemento.style.color = "blue"
+    elemento.style.backgroundColor = "black"
+    elemento.style.borderColor = "red"
+    elemento.style.borderStyle = "solid"
+    elemento.style.borderWidth = "4px" */
+        }
+
+        function aplicar(){
+            qualquerUma.innerText = document.getElementById("texto").value
+            qualquerUma.style.color = document.getElementById("corTexto").value
+            qualquerUma.style.backgroundColor = document.getElementById("corFundo").value
+            qualquerUma.style.width = document.getElementById("largura").value
+            qualquerUma.style.height = document.getElementById("altura").value
+            qualquerUma.style.fontSize = document.getElementById("tamTexto").value
+            qualquerUma.style.borderColor = document.getElementById("corBorda").value
     }
+
+        
+
+    
 

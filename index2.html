@@ -2,33 +2,88 @@
 <head>
     <title>Meu Site</title>
     <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+    
 </head>    
+
 <body style="display: flex; flex-wrap: nowrap;">
+    <div class="container">
+        <div>
+            Texto: <br>
+            <input type="text" id="texto">
+            <br><br>
+
+            Cor do Texto: <br>
+            <input type="text" id="corTexto">
+            <br><br>
+
+            Tamanho do texto: <br>
+            <input type="text" id="tamTexto">
+            <br><br>
+
+            Largura: <br>
+            <input type="text" id="largura">
+            <br><br>
+
+            Altura: <br>
+            <input type="text" id="altura">
+            <br><br>
+
+            Cor do Fundo: <br>
+            <input type="text" id="corFundo">
+            <br><br>
+
+            Cor da Borda: <br>
+            <input type="text" id="corBorda">
+            <br><br>
+
+            <button onclick="aplicar()">Aplicar as Mudanças</button>
+
+
+        </div>   
+    </div>
 
 <div class="container">
-Aqui será o formulário
-</div>
-
-<div class="container">
-    <div id="elementos" style="display: flex; justify-content: center; align-items: center;">
+    <div id="elemento" style="display: flex; justify-content: center; align-items: center;">
 
     </div>
 
 </div>
 
+
 <script language="javascript">
-    var elemento = document.getElementById("elementos")
-    elemento.innerText = "Conteúdo"
-    elemento.style.color = "blue"
-    elemento.style.backgroundColor = "black"
-    elemento.style.borderColor = "red"
-    elemento.style.borderStyle = "solid"
-    elemento.style.borderWidth = "4px"
-    
+   var qualquerUma = document.getElementById("elemento")
+   
+   qualquerUma.innerText = "Conteúdo da div"
+   document.getElementById("texto").value = "Conteúd"
+  
+   qualquerUma.style.color = "black"
+   document.getElementById("corTexto").value = "black"
+
+   qualquerUma.style.fontSize = "14pt";
+   document.getElementById("tamTexto").value = "14pt"
+
+   qualquerUma.style.width = "300px";
+   document.getElementById("largura").value = "300px"
+
+   qualquerUma.style.height = "300px";
+   document.getElementById("altura").value = "300px"
+
+   qualquerUma.style.backgroundColor = "white"
+   document.getElementById("corFundo").value = "white"   
+   
+   qualquerUma.style.borderColor = "black"
+   document.getElementById("corBorda").value = "black"
+
+   qualquerUma.style.borderStyle = "solid";
+   //document.getElementById("estiloBorda").value = "solid"
+
+  // qualquerUma.style.borderWidth = "4px";
+  // document.getElementById("larguraFonte").value = "4px"
+
+  
+
+
 </script>
-
-
-
 </body>
-
 </html>
