@@ -1,4 +1,19 @@
 <html>
+<body>
+
+
+<select id="time">
+    <option value="0">Selecione Seu Time</option>
+    <option value="1">Bahia</option>
+    <option value="2">Grêmio</option>
+    <option value="3">São Paulo</option>
+    <option value="4">Internacional</option>
+    <option value="5">Sport</option>
+</select>
+<button onclick="exibirTime()">Exibir Time</button>
+<br>
+<br>
+<br>
 
 <head>
     <script src="javascript.js" ></script>
@@ -6,7 +21,7 @@
 </head>
 
 
-<body>
+
     
 <input type="text" id="campo">
 <br><br>
@@ -54,7 +69,12 @@
 <button onclick="multiplicacao()">Multiplicação</button>
 
 <br><br>
-<input type="text" id="resultado" readonly>
+
+<div id="resultado" style="font-size: 18pt;">
+
+</div>
+
+<button onclick="imprimir()">Imprimir conteúdo da DIV</button>
 
 
 
