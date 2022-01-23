@@ -1,4 +1,11 @@
 <html>
+
+<head>
+    <script src="javascript.js" ></script>
+
+</head>
+
+
 <body>
     
 <input type="text" id="campo">
@@ -30,36 +37,28 @@
 <br>
 <button onclick="exponencial()">Calcular</button>
 
-<script language="javascript">
-    function abrirMensagens(){
-        alert(document.getElementById("campo").value)
-    }
+<br>
+<br>
+<hr>
+<H2>
+    CALCULADORA
+</H2>
+<input type="text" id="num1">
+<br>
 
-    function vermelho(){
-        document.getElementById("texto").style.color = "red"
-    }
+<input type="text" id="num2">
+<br><br>
+<button onclick="soma()">Soma</button>
+<button onclick="subtracao()">Subtração</button>
+<button onclick="divisao()">Divisão</button>
+<button onclick="multiplicacao()">Multiplicação</button>
 
-    function verde(){
-        document.getElementById("numero").style.color = "green"
-    }
+<br><br>
+<input type="text" id="resultado" readonly>
 
-    function azul(){
-        document.getElementById("texto").style.color = "blue"
-    }
 
-    function rosa(){
-        document.getElementById("texto").style.color = "pink"
-    }
 
-    function exponencial(){
-        var numero = document.getElementById("numero").value
 
-            for (let index = 0; index < 10; index++) {
-            numero = numero * 2
-            console.log(numero)
-        }
-    }
-</script>
 
 
 </body>
