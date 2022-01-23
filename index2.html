@@ -14,8 +14,17 @@
             <br><br>
 
             Cor do Texto: <br>
-            <input type="text" id="corTexto">
+            <select id="corTexto">
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+                <option value="black">Black</option>
+            </select>
+            
+            
             <br><br>
+
+            
 
             Tamanho do texto: <br>
             <input type="text" id="tamTexto">
@@ -72,8 +81,8 @@
    qualquerUma.style.backgroundColor = "white"
    document.getElementById("corFundo").value = "white"   
    
-   qualquerUma.style.borderColor = "black"
-   document.getElementById("corBorda").value = "black"
+   qualquerUma.style.borderColor = "gray"
+   document.getElementById("corBorda").value = "seriablack"
 
    qualquerUma.style.borderStyle = "solid";
    //document.getElementById("estiloBorda").value = "solid"
