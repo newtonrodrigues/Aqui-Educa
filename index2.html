@@ -20,12 +20,8 @@
                 <option value="blue">Blue</option>
                 <option value="black">Black</option>
             </select>
-            
-            
             <br><br>
-
             
-
             Tamanho do texto: <br>
             <input type="text" id="tamTexto">
             <br><br>
@@ -46,6 +42,20 @@
             <input type="text" id="corBorda">
             <br><br>
 
+            Estilo da Borda: <br>
+            <input type="text" id="estiloBorda">
+            <br><br>
+
+            Largura da Borda: <br>
+            <input type="text" id="larguraBorda">
+            <br><br>
+
+            Negrito: <br>
+            <input type="text" id="negrito">
+            <br><br>
+
+
+
             <button onclick="aplicar()">Aplicar as Mudanças</button>
 
 
@@ -63,8 +73,8 @@
 <script language="javascript">
    var qualquerUma = document.getElementById("elemento")
    
-   qualquerUma.innerText = "Conteúdo da div"
-   document.getElementById("texto").value = "Conteúd"
+   qualquerUma.innerText = "Conteúdo da div" // Aqui inicializa o que quiser sobre o que ficará na segunda div
+   document.getElementById("texto").value = "Conteúd" // valor "Conteúd" será atribuído ao elemento com o id especificado "texto"
   
    qualquerUma.style.color = "black"
    document.getElementById("corTexto").value = "black"
@@ -82,9 +92,19 @@
    document.getElementById("corFundo").value = "white"   
    
    qualquerUma.style.borderColor = "gray"
-   document.getElementById("corBorda").value = "seriablack"
+   document.getElementById("corBorda").value = "black"
 
-   qualquerUma.style.borderStyle = "solid";
+   qualquerUma.style.borderStyle = "solid"
+   document.getElementById("estiloBorda").value = "solid" //1 propriedade trabalho
+   
+   qualquerUma.style.borderWidth = "4px"
+   document.getElementById("larguraBorda").value = "4px"
+
+   qualquerUma.style.fontWeight = ""
+   document.getElementById("negrito").value = "Inserir negrito"
+   
+   
+   
    //document.getElementById("estiloBorda").value = "solid"
 
   // qualquerUma.style.borderWidth = "4px";
