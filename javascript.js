@@ -161,9 +161,12 @@ function exibirMensagem(){
             qualquerUma.style.height = document.getElementById("altura").value
             qualquerUma.style.fontSize = document.getElementById("tamTexto").value
             qualquerUma.style.borderColor = document.getElementById("corBorda").value
+
             qualquerUma.style.borderStyle = document.getElementById("estiloBorda").value
             qualquerUma.style.borderWidth = document.getElementById("larguraBorda").value
             qualquerUma.style.fontWeight = document.getElementById("negrito").value
+            qualquerUma.style.fontVariantCaps = document.getElementById("fontesvariacoes").value
+            qualquerUma.style.padding = document.getElementById("padding").value
     }
 
         

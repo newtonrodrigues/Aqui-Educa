@@ -54,6 +54,13 @@
             <input type="text" id="negrito">
             <br><br>
 
+            Fontes: <br>
+            <input type="text" id="fontesvariacoes">
+            <br><br>
+            
+            Padding: <br>
+            <input type="text" id="padding">
+            <br><br>
 
 
             <button onclick="aplicar()">Aplicar as Mudanças</button>
@@ -102,6 +109,12 @@
 
    qualquerUma.style.fontWeight = ""
    document.getElementById("negrito").value = "Inserir negrito"
+
+   qualquerUma.style.fontVariantCaps = "small-caps"
+   document.getElementById("fontesvariacoes").value = "small-caps"
+
+   qualquerUma.style.padding = "0px"
+   document.getElementById("padding").value = "0px"
    
    
    
