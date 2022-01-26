@@ -167,6 +167,8 @@ function exibirMensagem(){
             qualquerUma.style.fontWeight = document.getElementById("negrito").value
             qualquerUma.style.fontVariantCaps = document.getElementById("fontesvariacoes").value
             qualquerUma.style.padding = document.getElementById("padding").value
+
+          
     }
 
         
