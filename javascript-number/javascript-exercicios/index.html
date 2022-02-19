@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <script src="javascript.js"></script>
+        <meta charset="utf-8">
+    </head>
+    <body style="justify-content: center; align-items: center;"> 
+        <img src="./imagem.jpg" style="height: 300px;
+         width: 300px;" id="imagem">
+        <input type="range" style="cursor: pointer;" 
+        id="marcador" oninput="slider()">
+        <br>
+        <span style="font-size: 100pt; width: 134px;
+         text-align: right;"
+        id="numero">
+            0
+        </span>
+        <div style="padding: 20px;">
+            <div>
+                <button onclick="somar()" style="font-size: 20px;
+                cursor: pointer; height: 50px; width: 50px;">+</button>
+            </div>
+            <div>
+                <button onclick="subtrair()" style="font-size: 20px;
+                cursor: pointer; width: 50px; height: 50px;">-</button>
+            </div>
+            
+        </div>
+       
+    </body>
+</html>
