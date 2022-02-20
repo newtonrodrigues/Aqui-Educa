@@ -1,0 +1,9 @@
+.meu-texto-grande {
+    font-size: 40px;
+    color: blue;
+}
+.texto-rosa-medio {
+    font-size: small;
+    color: pink;
+    background-color: purple;
+}
